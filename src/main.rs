@@ -21,6 +21,15 @@ enum Packet {
         content: Content,
         target: Target,
     },
+    Subscribe {
+        sender: String,
+        hash: String,
+        target: Target,
+    },
+    Register {
+        username: String,
+        password: String,
+    },
 }
 
 fn main() {
