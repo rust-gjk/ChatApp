@@ -1,5 +1,7 @@
-// Tady jsem jenom přepsal tu strukturu, co jsme navrhli
-
+#[macro_use]
+extern crate text_io;
+extern crate serde_derive;
+extern crate serde;
 
 enum Content {
     Text(String),
