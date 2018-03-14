@@ -4,3 +4,6 @@ version = "0.1.0"
 authors = ["rust-gjk <>"]
 
 [dependencies]
+serde = "1.0.32"
+serde_cbor = "0.8.2"
+text_io = "0.1.7"
