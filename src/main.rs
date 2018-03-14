@@ -3,6 +3,8 @@ extern crate text_io;
 extern crate serde_derive;
 extern crate serde;
 
+
+#[derive(Serialize, Deserialize)]
 enum Content {
     Text(String),
     Equation(String), // Zatím string
@@ -10,12 +12,14 @@ enum Content {
     HTML(String),
 }
 
+#[derive(Serialize, Deserialize)]
 enum Target {
     User(String),
     Channel(String),
     Houbi,
 }
 
+#[derive(Serialize, Deserialize)]
 enum Packet {
     Message {
         sender: String,
