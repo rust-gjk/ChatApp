@@ -1,5 +1,7 @@
 // Matěj je debil
 
+//Má péro jak bůh, páč není vidět!
+
 #[macro_use]
 extern crate text_io;
 #[macro_use]
