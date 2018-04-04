@@ -1,4 +1,5 @@
-// Tvoje máma je tlustá!
+// Petrova máma je tlustá!
+
 #[macro_use]
 extern crate text_io;
 #[macro_use]
