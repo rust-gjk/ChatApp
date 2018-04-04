@@ -1,9 +1,10 @@
-//Tvoje máma je tlustá!
 #[macro_use]
 extern crate text_io;
 #[macro_use]
 extern crate serde_derive;
 extern crate serde;
+
+use std::net::UdpSocket;
 
 
 #[derive(Serialize, Deserialize)]
@@ -41,5 +42,5 @@ enum Packet {
 }
 
 fn main() {
-    println!("Hello, world!");
+    let mut socket = UdpSocket::bind(":12345")
 }
