@@ -1,4 +1,4 @@
-// Petrova máma je tlustá!
+// Matěj je debil
 
 #[macro_use]
 extern crate text_io;
