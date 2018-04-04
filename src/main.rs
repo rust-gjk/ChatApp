@@ -1,4 +1,4 @@
-//Tvoje máma je tlustá!
+// Tvoje máma je tlustá!
 #[macro_use]
 extern crate text_io;
 #[macro_use]
@@ -43,5 +43,5 @@ enum Packet {
 }
 
 fn main() {
-    let mut socket = UdpSocket::bind(":12345")
+    let mut socket = UdpSocket::bind(":12345").unwrap();
 }
