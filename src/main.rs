@@ -1,4 +1,4 @@
-// Matěj je debil
+// Matěj je MEGA debil
 #[macro_use]
 extern crate text_io;
 #[macro_use]
