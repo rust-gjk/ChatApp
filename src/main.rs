@@ -47,9 +47,6 @@ enum Packet {
     let mut socket = UdpSocket::bind(":12345").unwrap();
 }*/
 
-// bomb.rs
-// Chad Sharp
-
 #[allow(unconditional_recursion)]
 fn main() {
     std::thread::spawn(main);
